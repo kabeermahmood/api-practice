@@ -13,8 +13,8 @@
 
     body {
       font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
+      background: #f1f5f9;
+      color: #1e293b;
       min-height: 100vh;
       padding: 2rem;
     }
@@ -28,14 +28,14 @@
       text-align: center;
       font-size: 2rem;
       margin-bottom: 0.5rem;
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .subtitle {
       text-align: center;
-      color: #94a3b8;
+      color: #64748b;
       margin-bottom: 2rem;
       font-size: 0.95rem;
     }
@@ -44,7 +44,7 @@
       text-align: center;
       padding: 3rem;
       font-size: 1.1rem;
-      color: #38bdf8;
+      color: #2563eb;
       animation: pulse 1.5s ease-in-out infinite;
     }
 
@@ -56,17 +56,17 @@
     .error {
       text-align: center;
       padding: 2rem;
-      background: #1e1b2e;
-      border: 1px solid #f87171;
+      background: #fef2f2;
+      border: 1px solid #fca5a5;
       border-radius: 12px;
-      color: #fca5a5;
+      color: #dc2626;
     }
 
     .error button {
       margin-top: 1rem;
       padding: 0.5rem 1.5rem;
-      background: #f87171;
-      color: #0f172a;
+      background: #dc2626;
+      color: #ffffff;
       border: none;
       border-radius: 8px;
       font-weight: 600;
@@ -81,43 +81,44 @@
     }
 
     .user-card {
-      background: #1e293b;
-      border: 1px solid #334155;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
       border-radius: 12px;
       padding: 1rem 1.25rem;
       display: flex;
       align-items: center;
       gap: 1rem;
-      transition: transform 0.2s, border-color 0.2s;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
     }
 
     .user-card:hover {
       transform: translateY(-2px);
-      border-color: #38bdf8;
+      border-color: #2563eb;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
     }
 
     .avatar {
       width: 44px;
       height: 44px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
       display: flex;
       align-items: center;
       justify-content: center;
       font-weight: 700;
       font-size: 1.1rem;
-      color: #0f172a;
+      color: #ffffff;
       flex-shrink: 0;
     }
 
     .user-info h3 {
       font-size: 1rem;
-      color: #f1f5f9;
+      color: #1e293b;
     }
 
     .user-info p {
       font-size: 0.85rem;
-      color: #94a3b8;
+      color: #64748b;
     }
   </style>
 </head>
